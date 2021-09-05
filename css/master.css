@@ -1,0 +1,22 @@
+html{
+  /*background: linear-gradient(#ffc6b3, #404040);*/
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-color: #1d1d1b;
+}
+body{
+  padding: 7%;
+  /*background-color: #404040;*/
+  color: white;
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  font-variant: small-caps;
+}
+h1 {
+  margin-bottom: 25px;
+}
+h4 {
+  margin-bottom: 150px;
+  color: #ffa276;
+  font-variant: small-caps;
+}
