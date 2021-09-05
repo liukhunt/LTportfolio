@@ -63,6 +63,17 @@ li a {
 li a:hover{
   background-color: tomato;
 }
+.back-button{
+  padding: 20px 50px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  background-color: #ffa276;
+  text-decoration: none;
+}
+.back-button:hover{
+  background-color: tomato;
+}
 footer{
   margin: 25vh 0 2vh 0;
   color: grey;
