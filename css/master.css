@@ -24,6 +24,7 @@ body{
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
   position: relative;
+  text-align:center;
 }
 .header-img{
   text-align: center;
@@ -75,6 +76,19 @@ li a:hover{
   background-color: tomato;
 }
 footer{
-  margin: 25vh 0 2vh 0;
   color: grey;
+  position: absolute;
+  bottom: 2%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+#disclaimer{
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  color: white;
 }
