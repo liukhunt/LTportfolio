@@ -1,0 +1,95 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+html{
+  /*background: linear-gradient(#ffc6b3, #404040);*/
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-color: #1d1d1b;
+}
+body{
+  /*background-color: #404040;*/
+  color: white;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  font-variant: small-caps;
+}
+.big-header{
+  margin: 0 auto;
+  background-image: url("/Users/theblinkfish/Desktop/LTportfolio-placeholder-page/images/olly-BG_03.gif");
+  width: 100vw;
+  min-height: 100vh; /* You must set a specified height */
+  background-position: center;; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  position: relative;
+  text-align:center;
+}
+.header-img{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+h1 {
+  margin-top: 100px;
+}
+h4 {
+  margin-bottom: 7vh;
+  color: #ffa276;
+  font-variant: small-caps;
+}
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #ffa276;
+  overflow: hidden;
+  text-align: center;
+}
+li {
+  display: inline;
+}
+li a {
+  display: inline-block;
+  padding: 20px 50px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: tomato;
+}
+.back-button{
+  padding: 20px 50px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  background-color: #ffa276;
+  text-decoration: none;
+}
+.back-button:hover{
+  background-color: tomato;
+}
+footer{
+  color: grey;
+  position: absolute;
+  bottom: 2%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+#disclaimer{
+  padding: 9px;
+  margin: 0;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  color: white;
+  background-color: #999084;
+}
