@@ -17,7 +17,7 @@ body{
 }
 .big-header{
   margin: 0 auto;
-  background-image: url("https://www.lucatosetto.com/images/olly-BG.gif");
+  background-image: url("/Users/theblinkfish/Desktop/LTportfolio-placeholder-page/images/olly-BG_03.gif");
   width: 100vw;
   min-height: 100vh; /* You must set a specified height */
   background-position: center;; /* Center the image */
@@ -91,5 +91,5 @@ footer{
   transform: translate(-50%, -50%);
   font-size: 25px;
   color: white;
-  background-color: #ffa276;
+  background-color: #999084;
 }
